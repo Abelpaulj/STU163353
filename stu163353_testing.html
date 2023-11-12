@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="website/images/logo.jpeg" type="image/jpeg">
+    <title>Website Evaluation and Testing Report</title>
+    <Style>
+        body {
+            font-family:'Times New Roman', Times, serif;
+            margin-left: 50px;
+            
+            
+             }
+    </Style>
+</head>
+<body>
+    <h1>Website Evaluation and Testing Report</h1>
+    <h2>Introduction</h2>
+    <p>In this report, I will provide evidence of the evaluation and testing of my website in terms of usability and accessibility.I have considered how my  site looks across different browsers, validated my HTML and CSS, and assessed the readability of my site's content. I will present the results of these tests, including before and after screenshots where applicable.</p>
+    <h2>HTML Validation</h2>
+    <p>Before testing, I used the W3C Markup Validation Service to check our website for HTML errors. Initially, we discovered 12 errors on the index page, 7 on the about page, and 1 on the contact page. These errors included missing or improperly closed tags. After identifying these issues, we corrected the HTML code. Below are the before-and-after screenshots for the HTML validation. </p>
+    <h3>Index Page</h3>
+    <img src="testing/index page testing 2.png" alt="indexpage" style="width: 500px; height: 300px;">
+     <img src="testing/index page testing.png" alt="indexpage" style="width: 500px; height: 300px;">
+     
+     <ol>
+
+        <li>
+           <p> <b>Correction</b>:The correct value for the "type" attribute should be "image/jpeg." We have updated the link tag as follows:<br></p>
+            <img src="testing/index0.png" alt="indexpage" style="width: 500px; height: 50px;">
+          </p></li>
+        <li>
+            <p><b>Correction</b> :I have added spaces between attributes for improved readability.there were 3 Errors as same this.</p></li>
+            <img src="testing/correctedindex1.png" alt="indexpage" style="width: 500px; height: 300px;">
+        <li>
+           <p><b>Correction</b>:I have properly closed the "div" element to resolve this issue. The corrected code looks like this:</p> </li>
+            <img src="testing/index3.png" alt="index-page" style="width: 500px; height: 300px;">
+        <li>
+            <p><b>Correction</b>:I have removed the "button" element, keeping only the "a" element.</p></li>
+            <img src="testing/index4.png" alt="index-page" style="width: 500px; height: 200px;">
+        <li>
+            <p> <b>Correction</b>:I have added "alt" attributes to all "img" elements for improved accessibility.</p> </li>
+            <img src="testing/index5.png" alt="index-page" style="width: 500px; height: 200px;">
+        <li>
+            <p><b>Correction</b>:I have removed the unnecessary closing "hr" tag, as it does not require an end tag:</p></li>
+            <img src="testing/index6.png" alt="index-page" style="width: 500px; height: 200px;"> 
+            <li>
+            <p><b>Correction</b>:To address this concern,I opted to change the "section" tag to a "div" to maintain a clear and structured document outline.</p></li>
+                <img src="testing/index6.png" alt="index-page" style="width: 500px; height: 200px;">
+            <li><p><b>Correction</b>:I have removed the unnecessary closing "section" tag</p></li>
+             <li><p><b>Revalidation</b>:After implementing the above corrections,  I am pleased to report that my index page  now passes validation without errors or warnings.</p></li>
+                <img src="testing/corrected index testing .png" alt="index-page" style="width: 500px; height: 300px;">      
+     </ol>
+     <h3>About Yoga Page</h3>
+     <img src="testing/aboutyoga testing.png" alt="index-page" style="width: 500px; height: 300px;">
+     <img src="testing/aboutyoga yoga 2.png" alt="index-page" style="width: 500px; height: 200px;">
+
+     <ol>
+        <li>
+        <p><b>Correction</b>:I  matched with its opening "div>"" tag to resolve this error.</p>
+        </li>
+        <li>
+        <p><b>Correction</b>:I closed the section element properly ,so that there is not further error.</p>
+            </li>
+        <li>
+        </p><b>Correction</b>:I removed the stray "/section>" tag to correct this error.</p></li>
+            <P>before:</P>
+            <img src="testing/about1error.png" alt="index-page" style="width: 500px; height: 200px;">
+            <p>After:</p>
+            <img src="testing/about1.png" alt="index-page" style="width: 500px; height: 200px;">
+
+        <li>
+        <p><b>Correction</b>:I renamed the image file to ensure a valid path.</p></li>
+            <img src="testing/about2.png" alt="index-page" style="width: 500px; height: 200px;">
+
+        <li>
+        <p><b>Correction</b>:I changed name of the image file as same as error 4 to ensure a valid path.</p></li>
+            <img src="testing/about3.png" alt="index-page" style="width: 500px; height: 200px;">
+        <li>
+        <p><b>Correction</b>:I ensured that the closing "/h1>"" tag is used appropriately and paired with its corresponding opening "h1>"" tag.</p></li>
+            <img src="testing/about4.png" alt="index-page" style="width: 500px; height: 200px;">
+
+        <li>
+        <p><b>Correction</b>:I renamed the image file o to ensure a valid path.</p></li>
+            <img src="testing/about5.png" alt="index-page" style="width: 500px; height: 200px;">
+        <li>
+        <p><b>Correction</b>:I modified the "section" element to a "div" to enhance accessibility by eliminating the need for a heading.</p>
+        </li>
+        <img src="testing/about6.png" alt="index-page" style="width: 500px; height: 200px;">
+     </ol>
+     <p><b>Revalidation</b>:After implementing the above corrections, I am pleased to report that my aboutyoga page  now passes validation without errors or warnings.</p>
+        <img src="testing/corrected aboutyoga testing.png" alt="index-page" style="width: 500px; height: 300px;">
+
+     <h2>Contact Us</h2>
+     <img src="testing/contact testing.png" alt="index-page" style="width: 500px; height: 300px;">
+     
+     <ol>
+        <li><p><b>Correction</b>:I updated the width attribute in the style attribute to specify the width as a percentage.</p></li>
+            <img src="testing/contact1.png" alt="index-page" style="width: 700px; height: 200px;">
+        <li><p><b>Correction</b>:I replaced the "section" element with a "div" to maintain content structure and accessibility.</p></li>
+            <img src="testing/contact2.png" alt="index-page" style="width: 500px; height: 200px;">
+     </ol>
+     <p><b>Revalidation:</b>After implementing the mentioned corrections,I'm pleased to report that the contact page now passes validation with no errors or warnings.</p>
+     <img src="testing/correted  contact testing.png" alt="index-page" style="width: 500px; height: 300px;">
+
+    <h2>CSS Validation</h2> 
+    <p><b>Before</b>:</p>
+    <img src="testing/css testing.png" alt="index-page" style="width: 500px; height: 200px;">
+    <p><b>After</b>:</p>
+    <img src="testing/correted  contact testing.png" alt="index-page" style="width: 500px; height: 300px;"></p>
+    <p>In the CSS stylesheet, I fixed the first three errors by removing "all" from transition properties and ensuring correct syntax. In the third error, I removed the height property because it was unnecessary. I also corrected the last error by removing a misplaced "/" symbol and added a valid CSS command. These changes ensure the stylesheet is error-free and follows proper CSS syntax.</p>
+    <p><b>Corrections</b>:</p>  
+    <img src="testing/css1.png" alt="index-page" style="width: 500px; height: 150px;">
+     <img src="testing/css2.png" alt="index-page" style="width: 500px; height: 150px;">
+     <img src="testing/css3.png" alt="index-page" style="width: 500px; height: 200px;">
+    <h2>Browser Compatibility Testing</h2>
+    <ol>
+        <Li><p>I conducted browser compatibility testing to ensure that my website functions correctly and appears consistent across various browsers.</p></Li>
+        <li><p>I used my website  in Microsoft Edge, Google Chrome and Brave to simulate different browser environments.</p></li>
+    </ol>
+    <p>Brave:</p>
+    <img src="testing/brave.png" alt="index-page" style="width: 500px; height: 300px;">
+   <p>Google Chrome:</p>
+    <img src="testing/chrome.png" alt="index-page" style="width: 500px; height: 300px;">
+   <p>Microsoft Edge:</p>
+    <img src="testing/microsoft.png" alt="index-page" style="width: 500px; height: 300px;">
+   <p>My Yogazenith website  had no significant changes  on the browser compatibility testing. The website performed consistently across all tested browsers.</p>
+
+   <h2>Conclusion</h2>
+   <p>Through careful evaluation and testing, i addressed and resolved various HTML and CSS issues on the Yogazenith website, ensuring W3C validation and seamless cross-browser functionality. The comprehensive corrections made to the code significantly improved the website's usability and accessibility, providing a seamless and error-free browsing experience for all users.</p>
+
+
+
+
+
+
+
+
+
+
+</body>
+ </html>
+ 
